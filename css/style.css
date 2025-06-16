@@ -132,7 +132,6 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
-        margin: 0 auto;
         padding: 0 10px;
     }
 }
@@ -142,9 +141,26 @@ img {
 
 
 
-/* @media screen and (max-width:480px) {
-    .footer {
+@media screen and (max-width:480px) {
+    .row {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .why-us .col-left,
+    .col,
+    .why-us .col-right,
+    .steps .col,
+    .lessons .col {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .container-footer {
         background-color: #222222;
     }
 
-} */
+}
