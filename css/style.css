@@ -153,6 +153,7 @@ img {
     .steps .col,
     .lessons .col {
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .card {
